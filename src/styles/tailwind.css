@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+:root {
+  --color-primary: #8b1d1d; /* fallback; pode ser sobrescrito em runtime */
+  --color-gold: #f59e0b; /* fallback; pode ser sobrescrito em runtime */
+  --bg-page: #ffffff; /* fundo da página */
+  --bg-muted: #fff8e6; /* destaque sutil */
+  --bg-muted-hover: #ffefcc; /* hover sutil */
+  --border-muted: #fbd38d; /* borda sutil */
+}
+
+body {
+  @apply font-sans text-gray-800;
+  background-color: var(--bg-page);
+}
+
+a {
+  @apply text-primary;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium transition-colors;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-red-900;
+}
+
+.btn-ghost {
+  @apply text-primary;
+}
+.btn-ghost:hover { background-color: var(--bg-muted); }
+
+.card {
+  @apply bg-white rounded-xl shadow-md overflow-hidden;
+}

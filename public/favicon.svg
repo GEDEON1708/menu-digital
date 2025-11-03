@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg{fill:#8b1d1d}
+      .fg{fill:#ffffff}
+    </style>
+  </defs>
+  <circle class="bg" cx="32" cy="32" r="28"/>
+  <!-- Fork -->
+  <g transform="translate(20,14)">
+    <rect class="fg" x="2" y="0" width="2" height="12" rx="1"/>
+    <rect class="fg" x="6" y="0" width="2" height="12" rx="1"/>
+    <rect class="fg" x="10" y="0" width="2" height="12" rx="1"/>
+    <rect class="fg" x="4" y="12" width="6" height="14" rx="1"/>
+    <rect class="fg" x="6" y="26" width="2" height="14" rx="1"/>
+  </g>
+  <!-- Knife -->
+  <g transform="translate(36,14)">
+    <path class="fg" d="M4 0 c3 9 -2 18 -2 22 v18 c0 1 -1 2 -2 2 h-2 c-1 0 -2 -1 -2 -2 V24 c0 -3 5 -12 4 -24 z"/>
+  </g>
+</svg>
